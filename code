@@ -95,18 +95,9 @@
         <div class="video-karti">
             <div class="video-baslik">🎹 İlk Performansım - Şarkı Adı</div>
             <div class="video-cerceve">
-                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/watch?v=nzUUI5W-fcs" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
-
-        <div class="video-karti">
-            <div class="video-baslik">🎼 Klasik Müzik Denemesi - Şarkı Adı</div>
-            <div class="video-cerceve">
-                <iframe src="https://www.youtube.com/embed/jNQXAC9IVRw" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div>
-
-    </div>
 
     <footer>
         <p>GitHub Pages ile oluşturuldu - 2024</p>
