@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyano Yolculuğum</title>
+    <style>
+        /* Genel Tasarım Ayarları */
+        body {
+            font-family: 'Georgia', serif; /* Daha sanatsal bir yazı tipi */
+            background-color: #121212; /* Koyu arka plan (Sahne havası) */
+            color: #eeeeee; /* Açık renk yazı */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        /* Başlık Alanı */
+        header {
+            padding: 50px 20px;
+            background: linear-gradient(to bottom, #000000, #121212);
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+        p.subtitle {
+            color: #aaaaaa;
+            font-style: italic;
+        }
+
+        /* Video Galerisi Düzeni */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .video-karti {
+            background-color: #1e1e1e;
+            margin-bottom: 40px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+
+        .video-baslik {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        /* Videoların Mobilde Düzgün Görünmesi İçin */
+        .video-cerceve {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 Oranı */
+            height: 0;
+            overflow: hidden;
+            border-radius: 4px;
+        }
+        .video-cerceve iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Alt Bilgi */
+        footer {
+            padding: 20px;
+            font-size: 0.8em;
+            color: #666;
+            margin-top: 50px;
+            border-top: 1px solid #333;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Piyano Günlüğüm</h1>
+        <p class="subtitle">Tuşlara dokunduğum anlar ve favori parçalarım</p>
+    </header>
+
+    <div class="container">
+        
+        <p style="font-size: 1.1em; line-height: 1.6;">
+            Merhaba! Ben [Adın]. Piyano çalmayı seviyorum ve gelişimimi bu sayfada paylaşıyorum. 
+            Aşağıda çaldığım bazı eserleri dinleyebilirsiniz.
+        </p>
+        <hr style="border-color: #333; margin: 30px 0;">
+
+        <div class="video-karti">
+            <div class="video-baslik">🎹 İlk Performansım - Şarkı Adı</div>
+            <div class="video-cerceve">
+                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="video-karti">
+            <div class="video-baslik">🎼 Klasik Müzik Denemesi - Şarkı Adı</div>
+            <div class="video-cerceve">
+                <iframe src="https://www.youtube.com/embed/jNQXAC9IVRw" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>GitHub Pages ile oluşturuldu - 2024</p>
+    </footer>
+
+</body>
+</html>
